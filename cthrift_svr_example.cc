@@ -40,11 +40,11 @@ class EchoHandler: virtual public EchoIf {
 int
 main(int argc, char **argv) {
   //注意：请使用业务自身的appkey进行cat初始化！！！！！
-  catClientInit("com.sankuai.inf.octo.cthrift");
+  catClientInit("com.sankuai.smartcall.smartmrcp");
 
 
   CLOG_INIT();
-  string str_svr_appkey("com.sankuai.inf.octo.cthrift"); //服务端的appkey
+  string str_svr_appkey("com.sankuai.smartcall.smartmrcp"); //服务端的appkey
   uint16_t u16_port = 16888;
   bool b_single_thread = false;  //当时单线程运行时，worker thread num 只能是1
   int32_t i32_timeout_ms = 15;

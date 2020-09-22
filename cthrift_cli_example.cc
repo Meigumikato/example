@@ -128,12 +128,12 @@ void Work(const string &str_svr_appkey,
 int main(int argc, char **argv) {
   //注意：请使用业务自身的appkey进行cat初始化！！！！！
   //com.sankuai.inf.newct.client
-  catClientInit("com.sankuai.inf.octo.cthrift.client");
+  catClientInit("com.sankuai.smartcall.smartmrcp");
 
 
   CLOG_INIT();
-  string str_svr_appkey("com.sankuai.inf.octo.cthrift"); //服务端的appkey
-  string str_cli_appkey("com.sankuai.inf.octo.cthrift.client"); //客户端的appkey
+  string str_svr_appkey("com.sankuai.smartcall.smartmrcp"); //服务端的appkey
+  string str_cli_appkey("com.sankuai.smartcall.smartmrcp"); //客户端的appkey
   int32_t i32_timeout_ms = 30;
 
   switch (argc) {

@@ -154,8 +154,8 @@ int main(int argc, char **argv) {
 
 
   CLOG_INIT();
-  string str_svr_appkey("com.sankuai.inf.newct"); //服务端的appkey
-  string str_cli_appkey("com.sankuai.inf.newct.client"); //客户端的appkey
+  string str_svr_appkey("com.sankuai.smartcall.smartmrcp"); //服务端的appkey
+  string str_cli_appkey("com.sankuai.smartcall.smartmrcp"); //客户端的appkey
   int32_t i32_timeout_ms = 70;
   int32_t i32_thread_num = 10;
   int32_t test_count = 20000;
